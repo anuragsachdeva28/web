@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.sach {
+    width: 0%;
+    height: 30px;
+    background: red;
+    transition: width 4s; 
+    border-radius:50px;
+}
+.anurag{
+    margin:20px;
+    background-color:#CCC;
+    padding:30px;
+    border-radius:8px;
+}
+.jerry{
+    background-color:#FFF;
+    border-radius:50px;
+    border:10px solid #999;
+    border-style:dashed;
+}
+.btn{
+    background-color:#999;
+    width:150px;
+    height:60px;
+    cursor:pointer;
+    border:0;
+    padding:15px;
+    font-size:16px;
+}
+.btn:hover{
+    box-shadow:3px 3.5px 1px 4px grey;
+}
+.btn:active{
+    transform:translateY(3px);
+    box-shadow:2px 0px 1px 1px grey;
+}
+</style>
+</head>
+<body>
+
+<h1 align="center">Progress Bar</h1>
+<div class="anurag">
+  <div class="jerry">
+      <div id="annu" class="sach"></div>
+  </div>
+</div>
+<div align="center">
+  <button class="btn" type="button" onclick="document.getElementById('annu').style.width='100%'">Click Me!</button>
+</div>
+</body>
+</html> 
